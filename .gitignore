@@ -1,0 +1,37 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Testing & Linting Caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node & Next.js (Frontend)
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Database & Containers
+*.sqlite3
+*.log
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
